@@ -49,7 +49,7 @@ public class Magpie2
 
  private String getRandomResponse()
  {
-  final int NUMBER_OF_RESPONSES = 9;
+  final int NUMBER_OF_RESPONSES = 4;
   double r = Math.random();
   int whichResponse = (int)(r * NUMBER_OF_RESPONSES);
   String response = "";
@@ -70,27 +70,7 @@ public class Magpie2
   {
    response = "You don't say.";
   }
-  else if (whichResponse == 4)
-      {
-    response = "Can you repeat that?";
-  }
-    else if (whichResponse == 5)
-  {
-    response = "I didn't know that";
-  }
-    else if (whichResponse == 6)
-  {
-    response = "What?";
-  }
-    else if (whichResponse == 7)
-    {
-      response = "Huh?";
-    }
-    else if (whichResponse == 8)
-    {
-      response = "Well then";
-    }
-   
+
   return response;
  }
 }

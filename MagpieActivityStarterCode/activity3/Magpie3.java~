@@ -18,27 +18,6 @@ public class Magpie3
   {
    response = "Why so negative?";
   }
-  else if (findKeyword(statement, "hi") >= 0)
-  {
-   response = "hello there"; 
-  }
-  else if (findKeyword(statement, "what") >= 0)
-  {
-   response = "what?"; 
-  }
-    else if (findKeyword(statement, "not cool") >= 0)
-  {
-   response = "huh?"; 
-  }
-      else if (findKeyword(statement, "general kenobi") >= 0)
-  {
-   response = "hello there"; 
-  }
-        else if (findKeyword(statement, "goku") >= 0)
-  {
-   response = "hi Harrison"; 
-  }
-        
   else if (findKeyword(statement, "mother") >= 0
     || findKeyword(statement, "father") >= 0
     || findKeyword(statement, "sister") >= 0
@@ -125,26 +104,7 @@ public class Magpie3
   {
    response = "You don't say.";
   }
-  else if (whichResponse == 4)
-      {
-    response = "Can you repeat that?";
-  }
-    else if (whichResponse == 5)
-  {
-    response = "I didn't know that";
-  }
-    else if (whichResponse == 6)
-  {
-    response = "What?";
-  }
-    else if (whichResponse == 7)
-    {
-      response = "Huh?";
-    }
-    else if (whichResponse == 8)
-    {
-      response = "Well then";
-    }
+
   return response;
  }
 
